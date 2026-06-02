@@ -6,7 +6,7 @@ This is your master map for navigating this project's local context.
 - **Identity/**: Who the user is and your behavioral rules.
 - **Context/**: Situational knowledge and standards.
 - **Skills/**: Modular SOPs and capabilities.
-- **Memory/**: Decision logs and feedback loops.
+- **Plans/**: Planing and execution documentation of features. 
 
 ## 📄 Key Entry Points
 - `INSTRUCTIONS.md`: Mandatory onboarding hook.

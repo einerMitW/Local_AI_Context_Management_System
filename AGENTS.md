@@ -1,0 +1,1 @@
+Lies die Datei INSTRUCTIONS.md und initialisiere dich mit dieser.
