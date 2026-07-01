@@ -1,16 +1,8 @@
 # Local AI Context Management System
 
-Welcome to the **Local AI Context Management System**. This project provides a standardized, portable, and file-based framework to manage how AI agents interact with your projects. 
+This project provides a standardized, portable, and file-based framework to manage how AI agents interact with your projects. 
 
 Inspired by the **"File over AI"** philosophy, this system ensures that your project's identity, rules, and knowledge are not locked into a specific AI platform but reside locally within your workspace as Markdown files.
-
----
-
-## 🚀 General Introduction
-
-When you add an AI agent (like Claude Code, Cursor, or Gemini) to a project, they often start with a "clean slate" (tabula rasa). This leads to **Context Rot** and **Model Fatigue**, where the AI forgets project-specific rules or generates generic, unaligned code.
-
-This system solves the "New Hire Problem" for AI by providing a **Navigation MMU** (Memory Management Unit). It guides the agent through your identity, the project context, and specific skills, ensuring every response is aligned with your standards.
 
 ---
 
@@ -23,13 +15,11 @@ Copy the `Local_AI_Context_Management` folder structure to the root of your proj
 
 ### 2. Alignment (The Identity Layer)
 Fill out the templates in the `Identity/` folder:
-- **`me.md`**: Tell the AI who you are, your role in this project, and your communication preferences.
-- **`soul.md`**: Define the AI's "Soul"—its personality, reasoning standards, and non-negotiables.
+- **`me.md`**: Tell the AI who you are, your communication preferences, reasoning standards, and non-negotiables.
 
 ### 3. Knowledge Curation (The Context Layer)
 Define the project's situational knowledge:
-- **`Context/standards.md`**: Document your code style, documentation rules, and technical requirements.
-- **`Context/Content-map.md`**: Create a Map of Content (MOC) that points the AI to important files in your repo.
+- **`Context/standards.md`**: Document your code style, documentation rules, and technical requirements, Tasks, Storys, ...
 
 ### 4. Capability Definition (The Skills Layer)
 Teach the AI how to perform specific tasks:
